@@ -31,15 +31,21 @@ The method is shown in follow figure.
 # Image captioning
 The method is shown in follow figure.
 ![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/nic.jpg)
+# Results
+Is under training...
 
 # Dataset
+1. tang poems dataset: 
+2. ENG2CHN dataset: 
+3. flickr30k: 
 
 
 # Requirements
 1. python 3.5
-2. pillow
-3. numpy
-4. panda
+2. tensorflow 1.4.0
+3. pillow
+4. numpy
+5. pandas
 
 
 # Acknowledgement
