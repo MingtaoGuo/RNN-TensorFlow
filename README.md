@@ -35,9 +35,11 @@ The method is shown in follow figure.
 Is under training...
 
 # Dataset
-1. tang poems dataset: 
-2. ENG2CHN dataset: 
-3. flickr30k: 
+1. tang poems dataset: [https://github.com/todototry/AncientChinesePoemsDB](https://github.com/todototry/AncientChinesePoemsDB)
+2. ENG2CHN dataset: [http://www.manythings.org/anki/](http://www.manythings.org/anki/)
+3. flickr30k: [https://pan.baidu.com/s/1QAZq22mGJVMfGh0-rLiwxQ](https://pan.baidu.com/s/1QAZq22mGJVMfGh0-rLiwxQ)
+
+##### I have uploaded the dataset to the repository except the flickr30k(too big :joy:).
 
 
 # Requirements
@@ -47,8 +49,11 @@ Is under training...
 4. numpy
 5. pandas
 
-
-# Acknowledgement
+# Reference
+[1] [http://karpathy.github.io/2015/05/21/rnn-effectiveness/](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+[2] [http://colah.github.io/posts/2015-08-Understanding-LSTMs/](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+[3] Sutskever I, Vinyals O, Le Q V. Sequence to sequence learning with neural networks[C]//Advances in neural information processing systems. 2014: 3104-3112.
+[4] Vinyals O, Toshev A, Bengio S, et al. Show and tell: Lessons learned from the 2015 mscoco image captioning challenge[J]. IEEE transactions on pattern analysis and machine intelligence, 2017, 39(4): 652-663.
 
 
 
