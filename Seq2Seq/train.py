@@ -64,7 +64,7 @@ def train():
     if not os.path.exists("./save_para"):
         os.mkdir("./save_para")
 
-    for i in range(1000000):
+    for i in range(20000):
         rand_select = np.random.randint(0, dataset_nums, [BATCH_SIZE])
         EN_batch = EN_dataset[rand_select]
         EN_batch_seqnums = EN_seqnums[rand_select]
