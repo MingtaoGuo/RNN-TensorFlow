@@ -1,7 +1,7 @@
 # RNN-TensorFlow
 Some interesting application of RNN, generate pomes, seq2seq (machine translation), image caption (NIC)
 
-This repository simplely implement some interesting applications of RNN, for example, generate poems (Chinese tang poem), seq2seq (English to Chinese), image captioning (NIC)
+
 # Chinese tang poem generation
 The method is shown in follow figure.
 ![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/poem.jpg)
@@ -16,13 +16,21 @@ The method is shown in follow figure.
 |飞草初生柳，春风不见君。青山无限路，白发不相关。||
 |时无垠兮复，不是不相宜。||
 
-
-
-
-For machine translation, seq2seq is used, as shown in follow figure.
+# Machine translation
+The method is shown in follow figure.
 ![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/seq2seq.jpg)
+# Results
+|English|->|Chinese|
+|-|-|-|
+|I want to go to school.|->|我想去上學。|
+|I am here.|->|我在這裡。|
+|You are here.|->|你在這裡。|
+|Where are you?|->|你在哪儿?|
+|What do you like?|->|你喜欢什么？|
 
-For image captioning, 
+# Image captioning
+The method is shown in follow figure.
+![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/nic.jpg)
 
 # Dataset
 
@@ -33,24 +41,6 @@ For image captioning,
 3. numpy
 4. panda
 
-# Results
-1. Chinese tang poem generation:
-
-
-
-2. Machine translation(English to Chinese)
-
-|English|Chinese|
-|-|-|
-|I want to go to school.|我想去上學。|
-|I am here.|我在這裡。|
-|You are here.|你在這裡。|
-|Where are you?|你在哪儿?|
-|What do you like?|你喜欢什么？|
-
-3. Image captioning (NIC)
-
-Is under training...
 
 # Acknowledgement
 
