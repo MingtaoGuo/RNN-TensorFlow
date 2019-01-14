@@ -46,6 +46,16 @@ These results are under training about 40,000 iterations.
 1. tang poems dataset: [https://github.com/todototry/AncientChinesePoemsDB](https://github.com/todototry/AncientChinesePoemsDB)
 2. ENG2CHN dataset: [http://www.manythings.org/anki/](http://www.manythings.org/anki/)
 3. flickr30k: [https://pan.baidu.com/s/1QAZq22mGJVMfGh0-rLiwxQ](https://pan.baidu.com/s/1QAZq22mGJVMfGh0-rLiwxQ)
+```
+├── ImageCaption
+    ├── flickr30k
+        ├── imgs
+            ├── 36979.jpg
+            ├── 65567.jpg
+            ├── 81641.jpg
+                 ...
+        ├── results_20130124.token
+```
 
 ##### I have uploaded the dataset to the repository except the flickr30k(too big :joy:).
 
