@@ -35,11 +35,12 @@ The method is shown in follow figure.
 |a dog is running through the grass .|a woman in a bikini is sitting on a rock in the water . |a snowboarder is jumping off a snowy hill . |a baseball player in a white uniform is about to throw a ball . |
 |-|-|-|-|
 |![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/1.jpg)|![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/2.jpg)|![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/3.jpg)|![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/4.jpg)|
-|||||
+
 |a young girl in a pink bathing suit is swimming underwater . |a man in a wetsuit surfs on a wave . |a black dog is running through the water . |a group of people are sitting around a table with a large table of food . |
+|-|-|-|-|
 |![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/5.jpg)|![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/6.jpg)|![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/7.jpg)|![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/8.jpg)|
 
-Is under training...
+These results are under training about 40,000 iterations.
 
 # Dataset
 1. tang poems dataset: [https://github.com/todototry/AncientChinesePoemsDB](https://github.com/todototry/AncientChinesePoemsDB)
