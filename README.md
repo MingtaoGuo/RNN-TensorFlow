@@ -32,6 +32,9 @@ The method is shown in follow figure.
 The method is shown in follow figure.
 ![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/nic.jpg)
 # Results
+|a dog is running through the grass .|a woman in a bikini is sitting on a rock in the water . |
+|-|-|
+|![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/1.jpg)|![](https://github.com/MingtaoGuo/RNN-TensorFlow/blob/master/IMGS/2.jpg)|
 Is under training...
 
 # Dataset
