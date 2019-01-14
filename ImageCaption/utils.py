@@ -38,7 +38,7 @@ def loadDict(path):
     data = f.read()
     return eval(data)
 
-def get_imgBatch_captions(char2id, batchSize = 10, vecLen=100, imgPath='F://BaiduNetdiskDownload//flickr 30k//flickr30k-images//flickr30k-images//', annoPath='F://BaiduNetdiskDownload//flickr 30k//flickr30k//results_20130124.token'):
+def get_imgBatch_captions(char2id, batchSize = 10, vecLen=100, imgPath='./flickr30k/imgs/', annoPath='./flickr30k/results_20130124.token'):
     while True:
         df = pd.read_table(annoPath)
         chunk = np.array(df.sample(batchSize))
@@ -111,7 +111,7 @@ def vector2sentence(vector, id2word):
         sent += id2word[vector[i]] + ' '
     return sent
 
-def get_imgBatch_captions_wordLevel(voc, batchSize = 16, vecLen=50, imgPath='F://BaiduNetdiskDownload//flickr 30k//flickr30k-images//flickr30k-images//', annoPath='F://BaiduNetdiskDownload//flickr 30k//flickr30k//results_20130124.token'):
+def get_imgBatch_captions_wordLevel(voc, batchSize = 16, vecLen=50, imgPath='./flickr30k/imgs/', annoPath='./flickr30k/results_20130124.token'):
     df = pd.read_table(annoPath)
     chunk = np.array(df.sample(batchSize))
     imgBatch = np.zeros([batchSize, 224, 224, 3])
