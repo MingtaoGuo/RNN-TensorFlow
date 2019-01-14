@@ -32,7 +32,8 @@ LAYER_NUMS = 1
 BATCH_SIZE = 32
 WORD_NUMS = 8000
 SEQ_SIZE = 50
-voc = Vocabulary(WORD_NUMS, 'F://BaiduNetdiskDownload//flickr 30k//flickr30k//results_20130124.token')
+voc = Vocabulary(WORD_NUMS, './flickr30k/results_20130124.token')
+#voc.build_dict()
 voc.load_dict()
 #Use queue and thread to process data. (update time(1.1s) + read time(0.5s) = 1.6s -> update time(1.1s) + read time(0.005s) = 1.1s)
 q = queue.Queue(maxsize=10)
@@ -73,7 +74,7 @@ def train():
             print("Iteration: %d, Loss: %f, Read_time: %f, Update_time: %f"%(i, LOSS, read_time, update_time))
         if i % 500 == 0:
             saver.save(sess, "./save_para/model.ckpt")
-            IMG = np.array(Image.open('F://BaiduNetdiskDownload//flickr 30k//flickr30k-images//flickr30k-images//205842.jpg').resize([224, 224]))
+            IMG = np.array(Image.open('./flickr30k/imgs/205842.jpg').resize([224, 224]))
             caption = img2text(voc, IMG, sess, seqVec, imgs, init_state, img_state, state, wordVal)
             print(voc.vector2sentence(caption))
         pass
