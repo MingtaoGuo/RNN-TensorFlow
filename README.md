@@ -1,5 +1,5 @@
 # RNN-TensorFlow
-Some interesting application of RNN, generate pomes, seq2seq (machine translation), image caption (NIC)
+Some interesting applications of RNN, e.g. char rnn (pomes generation), seq2seq (machine translation), image captioning (NIC)
 
 
 # Chinese tang poem generation
